@@ -1,0 +1,18 @@
+[project]
+name = 'ProofofPresence'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.ProofofPresence]
+path = 'contracts/ProofofPresence.clar'
+clarity_version = 3
+epoch = 3.0
+
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
